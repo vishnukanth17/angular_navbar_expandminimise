@@ -21,13 +21,34 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "src/new_assets/assets/images/favicon.ico",
+              "src/new_assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/new_assets/assets/css/custom.min.css",
+              "src/new_assets/assets/css/app.min.css",
+              "src/new_assets/assets/css/icons.min.css",
+              "src/new_assets/assets/libs/jsvectormap/css/jsvectormap.min.css",
+            "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            
             ],
-            "scripts": []
+            "scripts": [
+              "src/new_assets/assets/js/layout.js",
+"src/new_assets/assets/js/plugins.js",
+"src/new_assets/assets/libs/feather-icons/feather.min.js",
+"src/new_assets/assets/libs/simplebar/simplebar.min.js",
+"src/new_assets/assets/libs/bootstrap/js/bootstrap.bundle.min.js",
+"src/new_assets/assets/js/pages/plugins/lord-icon-2.1.0.js",
+"src/new_assets/assets/libs/apexcharts/apexcharts.min.js",
+"src/new_assets/assets/libs/jsvectormap/js/jsvectormap.min.js",
+"src/new_assets/assets/libs/jsvectormap/maps/world-merc.js",
+"src/new_assets/assets/js/pages/dashboard-analytics.init.js",
+"src/new_assets/assets/js/pages/dashboard-ecommerce.init.js",
+"src/new_assets/assets/js/app.js"
+
+
+
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +115,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ca519576-cf26-41c9-938f-24c0b3c0acee"
   }
 }
